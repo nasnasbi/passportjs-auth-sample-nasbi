@@ -1,0 +1,21 @@
+.post {
+    transform: translateY(0);
+    animation: fadedown 0.35s;
+}
+
+@keyframes fadedown{
+    0% {
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+#main {
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+    margin-top: 10px;
+}
